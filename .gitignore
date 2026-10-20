@@ -1,0 +1,82 @@
+# ==========================================
+# Node / Frontend (Vue 3 / Vite)
+# ==========================================
+node_modules/
+frontend/node_modules/
+**/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# ==========================================
+# .NET / C# Backend
+# ==========================================
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
+.vs/
+**/[Dd]ebug/
+**/[Rr]elease/
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.sln.ide
+
+# Visual Studio Code
+.vscode/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# ==========================================
+# Environment Variables & Local Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.appsettings.local.json
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini

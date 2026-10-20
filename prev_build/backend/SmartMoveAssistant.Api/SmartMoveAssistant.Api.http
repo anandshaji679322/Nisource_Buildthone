@@ -1,0 +1,6 @@
+@SmartMoveAssistant.Api_HostAddress = http://localhost:5224
+
+GET {{SmartMoveAssistant.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
